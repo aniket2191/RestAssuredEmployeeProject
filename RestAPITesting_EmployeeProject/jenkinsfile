@@ -9,7 +9,7 @@ pipeline
 			steps
 			{
 			echo "Building is successfully done...."
-			bat "mvn clean"
+			bat "mvn -f C:\Users\Aniket\git\RestAssuredEmployeeProject\RestAPITesting_EmployeeProject\pom.xml clean"
 			}
 		}
 		stage("Test")
@@ -17,7 +17,7 @@ pipeline
 			steps
 			{
 			echo "Testing is successfully done...."
-			bat "mvn test"
+			bat "mvn C:\Users\Aniket\git\RestAssuredEmployeeProject\RestAPITesting_EmployeeProject\pom.xml test"
 			}
 		}
 		stage("Compile")
@@ -25,7 +25,7 @@ pipeline
 			steps
 			{
 			echo "Compiling is successfully done...."
-			bat "mvn compile"
+			bat "mvn C:\Users\Aniket\git\RestAssuredEmployeeProject\RestAPITesting_EmployeeProject\pom.xml compile"
 			}
 		}
 		stage("Deploy")
