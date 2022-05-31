@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.employeeapi.Utilities.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.employeeapi.TestCase.TC004_Put_UpdateSingle_EmployeeData">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="setUp"/>
+          <include name="updateSingleEmployeeData"/>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+        </methods>
+      </class> <!-- com.employeeapi.TestCase.TC004_Put_UpdateSingle_EmployeeData -->
+      <class name="com.employeeapi.TestCase.TC002_Get_Single_EmployeeData">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="getSingleEmployeeData"/>
+          <include name="checkStatusLine"/>
+        </methods>
+      </class> <!-- com.employeeapi.TestCase.TC002_Get_Single_EmployeeData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

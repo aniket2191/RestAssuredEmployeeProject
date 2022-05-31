@@ -1,0 +1,1564 @@
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":3203,"name":"Dr. Acharyasuta Embranthiri","email":"acharyasuta_dr_embranthiri@fay.com","gender":"female","status":"inactive"},{"id":3202,"name":"Aruna Khanna","email":"khanna_aruna@mertz-bogisich.info","gender":"female","status":"inactive"},{"id":3201,"name":"Suryakant Trivedi","email":"trivedi_suryakant@wolf.co","gender":"male","status":"inactive"},{"id":3198,"name":"Ajit Tagore","email":"tagore_ajit@gislason.io","gender":"female","status":"inactive"},{"id":3197,"name":"Gandharva Dhawan","email":"gandharva_dhawan@pacocha.io","gender":"female","status":"active"},{"id":3196,"name":"Ms. Jagmeet Acharya","email":"ms_jagmeet_acharya@boyle.net","gender":"male","status":"inactive"},{"id":3195,"name":"Enakshi Joshi","email":"joshi_enakshi@labadie.biz","gender":"male","status":"active"},{"id":3194,"name":"Atreyee Acharya I","email":"atreyee_acharya_i@shanahan-auer.name","gender":"male","status":"active"},{"id":3193,"name":"Atreyee Jain","email":"jain_atreyee@wilderman.info","gender":"male","status":"active"},{"id":3192,"name":"Gajbaahu Chopra","email":"gajbaahu_chopra@rosenbaum-rogahn.io","gender":"female","status":"active"},{"id":3191,"name":"Kailash Dwivedi LLD","email":"lld_kailash_dwivedi@wilkinson.info","gender":"female","status":"inactive"},{"id":3190,"name":"Soma Bhat","email":"soma_bhat@windler.io","gender":"female","status":"active"},{"id":3189,"name":"Gemini Dwivedi","email":"gemini_dwivedi@kiehn.info","gender":"female","status":"inactive"},{"id":3188,"name":"Bhargava Gowda","email":"bhargava_gowda@lemke-bogan.co","gender":"female","status":"inactive"},{"id":3187,"name":"Naveen Malik","email":"naveen_malik@purdy.org","gender":"male","status":"inactive"},{"id":3186,"name":"Aaratrika Butt","email":"butt_aaratrika@nienow.org","gender":"male","status":"inactive"},{"id":3185,"name":"Dhruv Prajapat","email":"dhruv_prajapat@fay-goyette.info","gender":"male","status":"active"},{"id":3184,"name":"Mohan Patil","email":"patil_mohan@daugherty.info","gender":"female","status":"active"},{"id":3183,"name":"Radha Dhawan","email":"dhawan_radha@buckridge.io","gender":"female","status":"active"},{"id":3182,"name":"Devak Acharya","email":"devak_acharya@bartell-beer.io","gender":"female","status":"active"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":4161,"name":"rivikau","email":"rivika11@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2988,"name":"Gov. Purnima Gill","email":"gill_gov_purnima@oreilly-bednar.info","gender":"male","status":"active"},{"id":2986,"name":"Dayaamay Gupta I","email":"dayaamay_i_gupta@treutel.co","gender":"male","status":"inactive"},{"id":2985,"name":"Ganapati Ahuja","email":"ahuja_ganapati@breitenberg.com","gender":"male","status":"active"},{"id":2984,"name":"Shreyashi Bharadwaj","email":"bharadwaj_shreyashi@marquardt-lynch.org","gender":"male","status":"inactive"},{"id":2983,"name":"Anjaneya Khan","email":"anjaneya_khan@bosco.name","gender":"female","status":"inactive"},{"id":2982,"name":"Saraswati Mehrotra","email":"saraswati_mehrotra@miller-hoeger.org","gender":"male","status":"inactive"},{"id":2975,"name":"Bhoj Varrier JD","email":"jd_bhoj_varrier@friesen.info","gender":"male","status":"active"},{"id":2974,"name":"Shrishti Bharadwaj","email":"shrishti_bharadwaj@feil.net","gender":"female","status":"inactive"},{"id":2973,"name":"Akshaj Mehra","email":"mehra_akshaj@zemlak.org","gender":"male","status":"inactive"},{"id":2972,"name":"Oormila Varrier","email":"oormila_varrier@stoltenberg-kertzmann.info","gender":"female","status":"inactive"},{"id":2971,"name":"Suryakantam Tagore I","email":"tagore_i_suryakantam@white.org","gender":"female","status":"active"},{"id":2970,"name":"Dayaananda Gupta II","email":"ii_dayaananda_gupta@mcglynn.net","gender":"male","status":"active"},{"id":2966,"name":"Charak Verma Ret.","email":"charak_verma_ret@considine.com","gender":"male","status":"active"},{"id":2965,"name":"Gajbaahu Gowda","email":"gajbaahu_gowda@thompson.com","gender":"male","status":"inactive"},{"id":2964,"name":"Mr. Sachin Nair","email":"nair_sachin_mr@reichert.co","gender":"female","status":"active"},{"id":2962,"name":"Chidaatma Khanna","email":"chidaatma_khanna@connelly.name","gender":"female","status":"active"},{"id":2961,"name":"Shanti Shah DC","email":"dc_shanti_shah@weissnat-zieme.name","gender":"female","status":"active"},{"id":2960,"name":"Pramila Shah","email":"pramila_shah@hyatt.info","gender":"female","status":"active"},{"id":2959,"name":"Prof. Charuvrat Jha","email":"charuvrat_jha_prof@thompson.com","gender":"male","status":"active"},{"id":2958,"name":"Giriraaj Devar Ret.","email":"giriraaj_ret_devar@brown-hermann.co","gender":"female","status":"active"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2985,"name":"Ganapati Ahuja","email":"ahuja_ganapati@breitenberg.com","gender":"male","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":4505,"name":"rivikaC","email":"rivika15@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika10@gmail.com","name":"rivikab","gender":"female","status":"active","id":2985}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2697,"name":"Bhardwaj Naik","email":"bhardwaj_naik@doyle-baumbach.net","gender":"male","status":"inactive"},{"id":2696,"name":"Amritambu Mukhopadhyay MD","email":"md_amritambu_mukhopadhyay@stoltenberg.org","gender":"female","status":"inactive"},{"id":2693,"name":"Brajendra Reddy","email":"brajendra_reddy@nienow-davis.com","gender":"female","status":"inactive"},{"id":2692,"name":"Ananda Guha","email":"guha_ananda@klocko.net","gender":"female","status":"active"},{"id":2691,"name":"Rev. Deepali Ganaka","email":"deepali_rev_ganaka@gutmann.io","gender":"male","status":"inactive"},{"id":2690,"name":"Indra Kapoor","email":"indra_kapoor@kutch-ritchie.biz","gender":"female","status":"active"},{"id":2687,"name":"Deenabandhu Bhattathiri","email":"bhattathiri_deenabandhu@weber-schuppe.info","gender":"male","status":"inactive"},{"id":2686,"name":"Anandamayi Arora Esq.","email":"esq_arora_anandamayi@trantow.co","gender":"female","status":"inactive"},{"id":2685,"name":"Sen. Amrit Menon","email":"amrit_menon_sen@cartwright.info","gender":"male","status":"inactive"},{"id":2682,"name":"Shwet Khatri","email":"khatri_shwet@kling-cassin.biz","gender":"female","status":"active"},{"id":2679,"name":"Anilabh Khan","email":"anilabh_khan@hudson-denesik.net","gender":"male","status":"inactive"},{"id":2676,"name":"Daksha Agarwal","email":"daksha_agarwal@daniel.biz","gender":"female","status":"active"},{"id":2670,"name":"Gov. Ananda Ahluwalia","email":"ahluwalia_gov_ananda@emmerich.co","gender":"male","status":"inactive"},{"id":2669,"name":"Baladitya Rana","email":"rana_baladitya@rohan-beier.co","gender":"male","status":"inactive"},{"id":2668,"name":"Gauraang Devar","email":"gauraang_devar@kuhlman.biz","gender":"male","status":"active"},{"id":2667,"name":"Giriraj Verma VM","email":"verma_vm_giriraj@mclaughlin-jacobson.name","gender":"female","status":"inactive"},{"id":2666,"name":"Anamika Khatri","email":"anamika_khatri@treutel.net","gender":"female","status":"active"},{"id":2665,"name":"Lai Butt","email":"lai_butt@rogahn-hand.org","gender":"female","status":"inactive"},{"id":2663,"name":"Avani Pillai","email":"avani_pillai@stark.net","gender":"female","status":"inactive"},{"id":2662,"name":"Saraswati Iyer","email":"iyer_saraswati@purdy.io","gender":"female","status":"active"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6291,"name":"rivikaW","email":"rivika10@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika16@gmail.com","name":"rivikao","gender":"female","status":"active","id":4505}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2697,"name":"Bhardwaj Naik","email":"bhardwaj_naik@doyle-baumbach.net","gender":"male","status":"inactive"},{"id":2696,"name":"Amritambu Mukhopadhyay MD","email":"md_amritambu_mukhopadhyay@stoltenberg.org","gender":"female","status":"inactive"},{"id":2693,"name":"Brajendra Reddy","email":"brajendra_reddy@nienow-davis.com","gender":"female","status":"inactive"},{"id":2692,"name":"Ananda Guha","email":"guha_ananda@klocko.net","gender":"female","status":"active"},{"id":2691,"name":"Rev. Deepali Ganaka","email":"deepali_rev_ganaka@gutmann.io","gender":"male","status":"inactive"},{"id":2687,"name":"Deenabandhu Bhattathiri","email":"bhattathiri_deenabandhu@weber-schuppe.info","gender":"male","status":"inactive"},{"id":2686,"name":"Anandamayi Arora Esq.","email":"esq_arora_anandamayi@trantow.co","gender":"female","status":"inactive"},{"id":2685,"name":"Sen. Amrit Menon","email":"amrit_menon_sen@cartwright.info","gender":"male","status":"inactive"},{"id":2682,"name":"Shwet Khatri","email":"khatri_shwet@kling-cassin.biz","gender":"female","status":"active"},{"id":2679,"name":"Anilabh Khan","email":"anilabh_khan@hudson-denesik.net","gender":"male","status":"inactive"},{"id":2676,"name":"Daksha Agarwal","email":"daksha_agarwal@daniel.biz","gender":"female","status":"active"},{"id":2670,"name":"Gov. Ananda Ahluwalia","email":"ahluwalia_gov_ananda@emmerich.co","gender":"male","status":"inactive"},{"id":2669,"name":"Baladitya Rana","email":"rana_baladitya@rohan-beier.co","gender":"male","status":"inactive"},{"id":2668,"name":"Gauraang Devar","email":"gauraang_devar@kuhlman.biz","gender":"male","status":"active"},{"id":2667,"name":"Giriraj Verma VM","email":"verma_vm_giriraj@mclaughlin-jacobson.name","gender":"female","status":"inactive"},{"id":2666,"name":"Anamika Khatri","email":"anamika_khatri@treutel.net","gender":"female","status":"active"},{"id":2665,"name":"Lai Butt","email":"lai_butt@rogahn-hand.org","gender":"female","status":"inactive"},{"id":2663,"name":"Avani Pillai","email":"avani_pillai@stark.net","gender":"female","status":"inactive"},{"id":2662,"name":"Saraswati Iyer","email":"iyer_saraswati@purdy.io","gender":"female","status":"active"},{"id":2661,"name":"Mr. Gaurang Reddy","email":"gaurang_reddy_mr@cassin-gislason.biz","gender":"female","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6311,"name":"rivikaM","email":"rivika18@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika12@gmail.com","name":"rivikah","gender":"female","status":"active","id":6291}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2697,"name":"Bhardwaj Naik","email":"bhardwaj_naik@doyle-baumbach.net","gender":"male","status":"inactive"},{"id":2696,"name":"Amritambu Mukhopadhyay MD","email":"md_amritambu_mukhopadhyay@stoltenberg.org","gender":"female","status":"inactive"},{"id":2693,"name":"Brajendra Reddy","email":"brajendra_reddy@nienow-davis.com","gender":"female","status":"inactive"},{"id":2692,"name":"Ananda Guha","email":"guha_ananda@klocko.net","gender":"female","status":"active"},{"id":2691,"name":"Rev. Deepali Ganaka","email":"deepali_rev_ganaka@gutmann.io","gender":"male","status":"inactive"},{"id":2687,"name":"Deenabandhu Bhattathiri","email":"bhattathiri_deenabandhu@weber-schuppe.info","gender":"male","status":"inactive"},{"id":2686,"name":"Anandamayi Arora Esq.","email":"esq_arora_anandamayi@trantow.co","gender":"female","status":"inactive"},{"id":2685,"name":"Sen. Amrit Menon","email":"amrit_menon_sen@cartwright.info","gender":"male","status":"inactive"},{"id":2682,"name":"Shwet Khatri","email":"khatri_shwet@kling-cassin.biz","gender":"female","status":"active"},{"id":2679,"name":"Anilabh Khan","email":"anilabh_khan@hudson-denesik.net","gender":"male","status":"inactive"},{"id":2676,"name":"Daksha Agarwal","email":"daksha_agarwal@daniel.biz","gender":"female","status":"active"},{"id":2670,"name":"Gov. Ananda Ahluwalia","email":"ahluwalia_gov_ananda@emmerich.co","gender":"male","status":"inactive"},{"id":2669,"name":"Baladitya Rana","email":"rana_baladitya@rohan-beier.co","gender":"male","status":"inactive"},{"id":2668,"name":"Gauraang Devar","email":"gauraang_devar@kuhlman.biz","gender":"male","status":"active"},{"id":2667,"name":"Giriraj Verma VM","email":"verma_vm_giriraj@mclaughlin-jacobson.name","gender":"female","status":"inactive"},{"id":2666,"name":"Anamika Khatri","email":"anamika_khatri@treutel.net","gender":"female","status":"active"},{"id":2665,"name":"Lai Butt","email":"lai_butt@rogahn-hand.org","gender":"female","status":"inactive"},{"id":2663,"name":"Avani Pillai","email":"avani_pillai@stark.net","gender":"female","status":"inactive"},{"id":2662,"name":"Saraswati Iyer","email":"iyer_saraswati@purdy.io","gender":"female","status":"active"},{"id":2661,"name":"Mr. Gaurang Reddy","email":"gaurang_reddy_mr@cassin-gislason.biz","gender":"female","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2687,"name":"Deenabandhu Bhattathiri","email":"bhattathiri_deenabandhu@weber-schuppe.info","gender":"male","status":"inactive"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6316,"name":"rivikac","email":"rivika11@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika19@gmail.com","name":"rivikaB","gender":"female","status":"active","id":2687}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2697,"name":"Bhardwaj Naik","email":"bhardwaj_naik@doyle-baumbach.net","gender":"male","status":"inactive"},{"id":2696,"name":"Amritambu Mukhopadhyay MD","email":"md_amritambu_mukhopadhyay@stoltenberg.org","gender":"female","status":"inactive"},{"id":2693,"name":"Brajendra Reddy","email":"brajendra_reddy@nienow-davis.com","gender":"female","status":"inactive"},{"id":2692,"name":"Ananda Guha","email":"guha_ananda@klocko.net","gender":"female","status":"active"},{"id":2691,"name":"Rev. Deepali Ganaka","email":"deepali_rev_ganaka@gutmann.io","gender":"male","status":"inactive"},{"id":2686,"name":"Anandamayi Arora Esq.","email":"esq_arora_anandamayi@trantow.co","gender":"female","status":"inactive"},{"id":2685,"name":"Sen. Amrit Menon","email":"amrit_menon_sen@cartwright.info","gender":"male","status":"inactive"},{"id":2682,"name":"Shwet Khatri","email":"khatri_shwet@kling-cassin.biz","gender":"female","status":"active"},{"id":2679,"name":"Anilabh Khan","email":"anilabh_khan@hudson-denesik.net","gender":"male","status":"inactive"},{"id":2676,"name":"Daksha Agarwal","email":"daksha_agarwal@daniel.biz","gender":"female","status":"active"},{"id":2670,"name":"Gov. Ananda Ahluwalia","email":"ahluwalia_gov_ananda@emmerich.co","gender":"male","status":"inactive"},{"id":2669,"name":"Baladitya Rana","email":"rana_baladitya@rohan-beier.co","gender":"male","status":"inactive"},{"id":2668,"name":"Gauraang Devar","email":"gauraang_devar@kuhlman.biz","gender":"male","status":"active"},{"id":2667,"name":"Giriraj Verma VM","email":"verma_vm_giriraj@mclaughlin-jacobson.name","gender":"female","status":"inactive"},{"id":2666,"name":"Anamika Khatri","email":"anamika_khatri@treutel.net","gender":"female","status":"active"},{"id":2665,"name":"Lai Butt","email":"lai_butt@rogahn-hand.org","gender":"female","status":"inactive"},{"id":2663,"name":"Avani Pillai","email":"avani_pillai@stark.net","gender":"female","status":"inactive"},{"id":2662,"name":"Saraswati Iyer","email":"iyer_saraswati@purdy.io","gender":"female","status":"active"},{"id":2661,"name":"Mr. Gaurang Reddy","email":"gaurang_reddy_mr@cassin-gislason.biz","gender":"female","status":"inactive"},{"id":2660,"name":"Anish Somayaji","email":"anish_somayaji@gulgowski.name","gender":"male","status":"active"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2691,"name":"Rev. Deepali Ganaka","email":"deepali_rev_ganaka@gutmann.io","gender":"male","status":"inactive"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6319,"name":"rivikaE","email":"rivika14@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"field":"email","message":"has already been taken"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>422
+****Checking Status Line****
+Status Code==>HTTP/1.1 422 Unprocessable Entity
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2697,"name":"Bhardwaj Naik","email":"bhardwaj_naik@doyle-baumbach.net","gender":"male","status":"inactive"},{"id":2696,"name":"Amritambu Mukhopadhyay MD","email":"md_amritambu_mukhopadhyay@stoltenberg.org","gender":"female","status":"inactive"},{"id":2693,"name":"Brajendra Reddy","email":"brajendra_reddy@nienow-davis.com","gender":"female","status":"inactive"},{"id":2692,"name":"Ananda Guha","email":"guha_ananda@klocko.net","gender":"female","status":"active"},{"id":2691,"name":"Rev. Deepali Ganaka","email":"deepali_rev_ganaka@gutmann.io","gender":"male","status":"inactive"},{"id":2686,"name":"Anandamayi Arora Esq.","email":"esq_arora_anandamayi@trantow.co","gender":"female","status":"inactive"},{"id":2685,"name":"Sen. Amrit Menon","email":"amrit_menon_sen@cartwright.info","gender":"male","status":"inactive"},{"id":2682,"name":"Shwet Khatri","email":"khatri_shwet@kling-cassin.biz","gender":"female","status":"active"},{"id":2679,"name":"Anilabh Khan","email":"anilabh_khan@hudson-denesik.net","gender":"male","status":"inactive"},{"id":2676,"name":"Daksha Agarwal","email":"daksha_agarwal@daniel.biz","gender":"female","status":"active"},{"id":2670,"name":"Gov. Ananda Ahluwalia","email":"ahluwalia_gov_ananda@emmerich.co","gender":"male","status":"inactive"},{"id":2669,"name":"Baladitya Rana","email":"rana_baladitya@rohan-beier.co","gender":"male","status":"inactive"},{"id":2668,"name":"Gauraang Devar","email":"gauraang_devar@kuhlman.biz","gender":"male","status":"active"},{"id":2667,"name":"Giriraj Verma VM","email":"verma_vm_giriraj@mclaughlin-jacobson.name","gender":"female","status":"inactive"},{"id":2666,"name":"Anamika Khatri","email":"anamika_khatri@treutel.net","gender":"female","status":"active"},{"id":2665,"name":"Lai Butt","email":"lai_butt@rogahn-hand.org","gender":"female","status":"inactive"},{"id":2663,"name":"Avani Pillai","email":"avani_pillai@stark.net","gender":"female","status":"inactive"},{"id":2662,"name":"Saraswati Iyer","email":"iyer_saraswati@purdy.io","gender":"female","status":"active"},{"id":2661,"name":"Mr. Gaurang Reddy","email":"gaurang_reddy_mr@cassin-gislason.biz","gender":"female","status":"inactive"},{"id":2660,"name":"Anish Somayaji","email":"anish_somayaji@gulgowski.name","gender":"male","status":"active"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2685,"name":"Sen. Amrit Menon","email":"amrit_menon_sen@cartwright.info","gender":"male","status":"inactive"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6324,"name":"rivikat","email":"rivika19@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika12@gmail.com","name":"rivikaQ","gender":"female","status":"active","id":2685}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2669,"name":"Baladitya Rana","email":"rana_baladitya@rohan-beier.co","gender":"male","status":"inactive"},{"id":2668,"name":"Gauraang Devar","email":"gauraang_devar@kuhlman.biz","gender":"male","status":"active"},{"id":2667,"name":"Giriraj Verma VM","email":"verma_vm_giriraj@mclaughlin-jacobson.name","gender":"female","status":"inactive"},{"id":2666,"name":"Anamika Khatri","email":"anamika_khatri@treutel.net","gender":"female","status":"active"},{"id":2665,"name":"Lai Butt","email":"lai_butt@rogahn-hand.org","gender":"female","status":"inactive"},{"id":2663,"name":"Avani Pillai","email":"avani_pillai@stark.net","gender":"female","status":"inactive"},{"id":2662,"name":"Saraswati Iyer","email":"iyer_saraswati@purdy.io","gender":"female","status":"active"},{"id":2661,"name":"Mr. Gaurang Reddy","email":"gaurang_reddy_mr@cassin-gislason.biz","gender":"female","status":"inactive"},{"id":2660,"name":"Anish Somayaji","email":"anish_somayaji@gulgowski.name","gender":"male","status":"active"},{"id":2659,"name":"Chandra Bharadwaj","email":"bharadwaj_chandra@dickinson-jacobson.biz","gender":"female","status":"active"},{"id":2658,"name":"Chandraayan Jha","email":"jha_chandraayan@terry.org","gender":"male","status":"inactive"},{"id":2657,"name":"Msgr. Damayanti Bharadwaj","email":"bharadwaj_damayanti_msgr@boyle.net","gender":"female","status":"inactive"},{"id":2656,"name":"Ekalavya Varman","email":"varman_ekalavya@gutkowski.net","gender":"female","status":"active"},{"id":2655,"name":"Divya Chattopadhyay VM","email":"chattopadhyay_divya_vm@kemmer-abernathy.net","gender":"male","status":"active"},{"id":2654,"name":"Niranjan Verma DDS","email":"dds_verma_niranjan@balistreri-goyette.info","gender":"female","status":"active"},{"id":2653,"name":"Sarisha Varma","email":"varma_sarisha@oconnell.com","gender":"female","status":"inactive"},{"id":2652,"name":"Hamsini Pilla","email":"hamsini_pilla@greenholt-wolf.org","gender":"male","status":"active"},{"id":2651,"name":"Aanand Ganaka","email":"ganaka_aanand@hamill.io","gender":"male","status":"inactive"},{"id":2650,"name":"Aagam Ganaka","email":"ganaka_aagam@stark.biz","gender":"male","status":"inactive"},{"id":2649,"name":"Gautami Shukla","email":"gautami_shukla@schumm.co","gender":"male","status":"active"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"field":"email","message":"has already been taken"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>422
+****Checking Status Line****
+Status Code==>HTTP/1.1 422 Unprocessable Entity
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2638,"name":"Prasad Shukla Jr.","email":"prasad_shukla_jr@heaney.name","gender":"female","status":"inactive"},{"id":2637,"name":"Chetanaanand Mehra","email":"mehra_chetanaanand@hand-mckenzie.net","gender":"male","status":"inactive"},{"id":2630,"name":"Agnivesh Namboothiri","email":"namboothiri_agnivesh@zemlak-hansen.name","gender":"male","status":"active"},{"id":2629,"name":"Anshula Namboothiri","email":"anshula_namboothiri@quigley-bashirian.io","gender":"female","status":"active"},{"id":2626,"name":"Annapurna Ganaka","email":"annapurna_ganaka@schamberger.name","gender":"female","status":"active"},{"id":2625,"name":"Ganaka Butt JD","email":"ganaka_jd_butt@baumbach.com","gender":"female","status":"inactive"},{"id":2624,"name":"Rukhmani Pillai MD","email":"md_rukhmani_pillai@rice-howe.net","gender":"female","status":"active"},{"id":2623,"name":"Rohit Kakkar","email":"rohit_kakkar@balistreri.info","gender":"female","status":"inactive"},{"id":2622,"name":"Dr. Nawal Agarwal","email":"nawal_agarwal_dr@zemlak-legros.co","gender":"female","status":"inactive"},{"id":2621,"name":"Agastya Kakkar","email":"agastya_kakkar@mitchell.io","gender":"female","status":"active"},{"id":2620,"name":"Bharat Jha","email":"jha_bharat@hagenes-kovacek.io","gender":"female","status":"active"},{"id":2619,"name":"Buddhana Dhawan JD","email":"buddhana_jd_dhawan@gusikowski.org","gender":"male","status":"inactive"},{"id":2618,"name":"Gitanjali Trivedi VM","email":"trivedi_gitanjali_vm@fisher.co","gender":"female","status":"inactive"},{"id":2617,"name":"Deenabandhu Acharya","email":"acharya_deenabandhu@legros.org","gender":"female","status":"active"},{"id":2615,"name":"Vidhur Khatri Esq.","email":"khatri_vidhur_esq@dickens-jacobs.org","gender":"male","status":"inactive"},{"id":2614,"name":"Vedanga Achari","email":"achari_vedanga@reynolds.com","gender":"male","status":"active"},{"id":2613,"name":"Heema Shukla","email":"shukla_heema@bayer-marquardt.io","gender":"female","status":"inactive"},{"id":2612,"name":"Amb. Anuraag Butt","email":"anuraag_butt_amb@oberbrunner-rempel.co","gender":"male","status":"active"},{"id":2611,"name":"Swarnalata Pandey","email":"swarnalata_pandey@koch-leffler.net","gender":"male","status":"inactive"},{"id":2610,"name":"Bhupati Bhattathiri","email":"bhupati_bhattathiri@swaniawski.org","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6920,"name":"rivikaN","email":"rivika17@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2638,"name":"Prasad Shukla Jr.","email":"prasad_shukla_jr@heaney.name","gender":"female","status":"inactive"},{"id":2637,"name":"Chetanaanand Mehra","email":"mehra_chetanaanand@hand-mckenzie.net","gender":"male","status":"inactive"},{"id":2630,"name":"Agnivesh Namboothiri","email":"namboothiri_agnivesh@zemlak-hansen.name","gender":"male","status":"active"},{"id":2629,"name":"Anshula Namboothiri","email":"anshula_namboothiri@quigley-bashirian.io","gender":"female","status":"active"},{"id":2626,"name":"Annapurna Ganaka","email":"annapurna_ganaka@schamberger.name","gender":"female","status":"active"},{"id":2625,"name":"Ganaka Butt JD","email":"ganaka_jd_butt@baumbach.com","gender":"female","status":"inactive"},{"id":2624,"name":"Rukhmani Pillai MD","email":"md_rukhmani_pillai@rice-howe.net","gender":"female","status":"active"},{"id":2623,"name":"Rohit Kakkar","email":"rohit_kakkar@balistreri.info","gender":"female","status":"inactive"},{"id":2622,"name":"Dr. Nawal Agarwal","email":"nawal_agarwal_dr@zemlak-legros.co","gender":"female","status":"inactive"},{"id":2621,"name":"Agastya Kakkar","email":"agastya_kakkar@mitchell.io","gender":"female","status":"active"},{"id":2620,"name":"Bharat Jha","email":"jha_bharat@hagenes-kovacek.io","gender":"female","status":"active"},{"id":2619,"name":"Buddhana Dhawan JD","email":"buddhana_jd_dhawan@gusikowski.org","gender":"male","status":"inactive"},{"id":2618,"name":"Gitanjali Trivedi VM","email":"trivedi_gitanjali_vm@fisher.co","gender":"female","status":"inactive"},{"id":2617,"name":"Deenabandhu Acharya","email":"acharya_deenabandhu@legros.org","gender":"female","status":"active"},{"id":2615,"name":"Vidhur Khatri Esq.","email":"khatri_vidhur_esq@dickens-jacobs.org","gender":"male","status":"inactive"},{"id":2614,"name":"Vedanga Achari","email":"achari_vedanga@reynolds.com","gender":"male","status":"active"},{"id":2613,"name":"Heema Shukla","email":"shukla_heema@bayer-marquardt.io","gender":"female","status":"inactive"},{"id":2612,"name":"Amb. Anuraag Butt","email":"anuraag_butt_amb@oberbrunner-rempel.co","gender":"male","status":"active"},{"id":2611,"name":"Swarnalata Pandey","email":"swarnalata_pandey@koch-leffler.net","gender":"male","status":"inactive"},{"id":2610,"name":"Bhupati Bhattathiri","email":"bhupati_bhattathiri@swaniawski.org","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2619,"name":"Buddhana Dhawan JD","email":"buddhana_jd_dhawan@gusikowski.org","gender":"male","status":"inactive"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":6940,"name":"rivikay","email":"rivika17@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika13@gmail.com","name":"rivikaD","gender":"female","status":"active","id":2619}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2840,"name":"Sloka Nair Sr.","email":"sloka_nair_sr@stehr.info","gender":"female","status":"inactive"},{"id":2839,"name":"Dhanu Jain","email":"jain_dhanu@mante.com","gender":"female","status":"active"},{"id":2838,"name":"Jay Nair","email":"nair_jay@gibson.info","gender":"female","status":"inactive"},{"id":2830,"name":"Adikavi Gowda","email":"gowda_adikavi@bruen-denesik.info","gender":"female","status":"inactive"},{"id":2827,"name":"Shubhaprada Mehra LLD","email":"lld_mehra_shubhaprada@wintheiser-weissnat.biz","gender":"male","status":"active"},{"id":2822,"name":"Jyotis Khanna","email":"khanna_jyotis@rogahn.io","gender":"male","status":"active"},{"id":2817,"name":"Bandhul Chaturvedi","email":"chaturvedi_bandhul@wintheiser-nikolaus.org","gender":"male","status":"active"},{"id":2816,"name":"Apsara Sharma","email":"apsara_sharma@towne.name","gender":"male","status":"active"},{"id":2814,"name":"Chaturbhuj Nambeesan","email":"nambeesan_chaturbhuj@monahan-heaney.name","gender":"male","status":"inactive"},{"id":2811,"name":"Chandrabhan Acharya","email":"acharya_chandrabhan@sawayn-jones.name","gender":"male","status":"active"},{"id":2810,"name":"Vedang Varman","email":"varman_vedang@tillman.name","gender":"male","status":"inactive"},{"id":2809,"name":"Bhagwati Mukhopadhyay","email":"mukhopadhyay_bhagwati@streich-simonis.biz","gender":"male","status":"inactive"},{"id":2808,"name":"Vaishno Sethi","email":"sethi_vaishno@mcdermott.name","gender":"male","status":"inactive"},{"id":2807,"name":"Atreyi Dwivedi","email":"dwivedi_atreyi@toy.org","gender":"female","status":"active"},{"id":2806,"name":"Rev. Bhaswar Saini","email":"rev_saini_bhaswar@deckow.org","gender":"male","status":"active"},{"id":2805,"name":"Anang Bhattathiri","email":"bhattathiri_anang@farrell-rolfson.net","gender":"female","status":"active"},{"id":2804,"name":"Adityanandan Sethi Jr.","email":"sethi_jr_adityanandan@morissette.biz","gender":"female","status":"inactive"},{"id":2803,"name":"Devagya Talwar Jr.","email":"talwar_devagya_jr@littel.name","gender":"female","status":"inactive"},{"id":2802,"name":"Chandani Guneta","email":"chandani_guneta@johnson.name","gender":"male","status":"active"},{"id":2801,"name":"Mrs. Malati Devar","email":"devar_mrs_malati@schroeder-lang.name","gender":"female","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2619,"name":"Dandapaani Kaul I","email":"dandapaani_i_kaul@klocko.net","gender":"female","status":"inactive"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":3692,"name":"rivikao","email":"rivika16@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika14@gmail.com","name":"rivikay","gender":"female","status":"active","id":2619}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2811,"name":"Chandrabhan Acharya","email":"acharya_chandrabhan@sawayn-jones.name","gender":"male","status":"active"},{"id":2807,"name":"Atreyi Dwivedi","email":"dwivedi_atreyi@toy.org","gender":"female","status":"active"},{"id":2806,"name":"Rev. Bhaswar Saini","email":"rev_saini_bhaswar@deckow.org","gender":"male","status":"active"},{"id":2805,"name":"Anang Bhattathiri","email":"bhattathiri_anang@farrell-rolfson.net","gender":"female","status":"active"},{"id":2802,"name":"Chandani Guneta","email":"chandani_guneta@johnson.name","gender":"male","status":"active"},{"id":2799,"name":"Rajiv Mehrotra","email":"mehrotra_rajiv@bogisich-lowe.name","gender":"female","status":"inactive"},{"id":2798,"name":"Gopi Patil MD","email":"gopi_md_patil@lind-kemmer.co","gender":"male","status":"inactive"},{"id":2797,"name":"Mrs. Lila Abbott","email":"lila_mrs_abbott@marquardt.co","gender":"female","status":"inactive"},{"id":2796,"name":"Chidaakaash Menon","email":"chidaakaash_menon@johnson.biz","gender":"male","status":"inactive"},{"id":2795,"name":"Bhooshan Namboothiri","email":"bhooshan_namboothiri@tromp.net","gender":"female","status":"inactive"},{"id":2794,"name":"Gautami Arora","email":"gautami_arora@mraz-hills.com","gender":"female","status":"inactive"},{"id":2793,"name":"Laxman Jain","email":"laxman_jain@herzog-bauch.io","gender":"female","status":"active"},{"id":2792,"name":"Tarun Naik","email":"naik_tarun@schuster.org","gender":"male","status":"active"},{"id":2791,"name":"Aamod Desai","email":"aamod_desai@marquardt.net","gender":"female","status":"active"},{"id":2790,"name":"Adheesh Mehrotra","email":"adheesh_mehrotra@bayer-johns.io","gender":"female","status":"inactive"},{"id":2789,"name":"Chatura Marar","email":"marar_chatura@orn.info","gender":"male","status":"inactive"},{"id":2788,"name":"Diksha Mishra","email":"diksha_mishra@brakus.io","gender":"male","status":"active"},{"id":2787,"name":"Advaya Sinha DVM","email":"advaya_dvm_sinha@ondricka-russel.co","gender":"male","status":"inactive"},{"id":2786,"name":"Sujata Sethi","email":"sujata_sethi@mayer.biz","gender":"female","status":"inactive"},{"id":2785,"name":"Ekdant Prajapat","email":"prajapat_ekdant@huels-johnston.info","gender":"female","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":3902,"name":"rivikaR","email":"rivika13@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2357,"name":"Deeksha Shukla","email":"shukla_deeksha@lueilwitz.name","gender":"female","status":"inactive"},{"id":2354,"name":"Suma Kakkar Ret.","email":"suma_kakkar_ret@huel.name","gender":"male","status":"active"},{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2347,"name":"Triloki Nath Arora","email":"arora_nath_triloki@rodriguez.org","gender":"male","status":"active"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2347,"name":"Triloki Nath Arora","email":"arora_nath_triloki@rodriguez.org","gender":"male","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":13382,"name":"rivikaB","email":"rivika13@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika17@gmail.com","name":"rivikaW","gender":"female","status":"active","id":2347}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":13910,"name":"rivikaF","email":"rivika16@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"field":"email","message":"has already been taken"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>422
+****Checking Status Line****
+Status Code==>HTTP/1.1 422 Unprocessable Entity
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":13983,"name":"rivikad","email":"rivika13@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":14013,"name":"rivikap","email":"rivika18@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":14082,"name":"rivikad","email":"rivika13@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":14139,"name":"rivikav","email":"rivika19@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":14181,"name":"rivikah","email":"rivika16@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":2349,"name":"Deb Chaturvedi","email":"chaturvedi_deb@ferry.com","gender":"female","status":"inactive"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":14221,"name":"rivikaO","email":"rivika16@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"email":"rivika13@gmail.com","name":"rivikaM","gender":"female","status":"active","id":2349}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"},{"id":2325,"name":"Deependra Butt","email":"deependra_butt@maggio.com","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"id":14321,"name":"rivikav","email":"rivika17@gmail.com","gender":"female","status":"active"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>201
+****Checking Status Line****
+Status Code==>HTTP/1.1 201 Created
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********
+***********Started TC001_Get_All_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"id":2353,"name":"Chidambar Nayar","email":"chidambar_nayar@kuhic.name","gender":"male","status":"active"},{"id":2348,"name":"The Hon. Dhanvin Jha","email":"hon_dhanvin_the_jha@schuster-predovic.io","gender":"female","status":"inactive"},{"id":2345,"name":"Trilochan Mehrotra","email":"mehrotra_trilochan@maggio.io","gender":"male","status":"inactive"},{"id":2344,"name":"Lalita Kaniyar DO","email":"do_kaniyar_lalita@stoltenberg.net","gender":"male","status":"active"},{"id":2343,"name":"Laxman Iyer","email":"laxman_iyer@jenkins.biz","gender":"female","status":"inactive"},{"id":2341,"name":"Lakshmidhar Gill","email":"lakshmidhar_gill@osinski.com","gender":"male","status":"active"},{"id":2340,"name":"Siddhi Reddy","email":"reddy_siddhi@hickle.com","gender":"female","status":"active"},{"id":2339,"name":"Prema Khatri DVM","email":"dvm_prema_khatri@funk.net","gender":"male","status":"active"},{"id":2338,"name":"Anil Pandey","email":"anil_pandey@mraz-wilkinson.com","gender":"female","status":"active"},{"id":2337,"name":"Giriraaj Arora","email":"arora_giriraaj@frami.org","gender":"male","status":"inactive"},{"id":2335,"name":"Vaishvi Acharya Sr.","email":"sr_vaishvi_acharya@boehm.biz","gender":"male","status":"active"},{"id":2334,"name":"Divakar Patel","email":"patel_divakar@kirlin.info","gender":"male","status":"active"},{"id":2333,"name":"Miss Laxmi Butt","email":"butt_laxmi_miss@metz.co","gender":"male","status":"active"},{"id":2332,"name":"Upendra Nair Ret.","email":"nair_ret_upendra@watsica.biz","gender":"female","status":"inactive"},{"id":2331,"name":"Msgr. Aaryan Khatri","email":"aaryan_msgr_khatri@casper-pfeffer.biz","gender":"female","status":"inactive"},{"id":2330,"name":"Chidaakaash Ahuja","email":"ahuja_chidaakaash@fay.info","gender":"female","status":"inactive"},{"id":2329,"name":"Bishnu Saini","email":"saini_bishnu@luettgen-schimmel.name","gender":"male","status":"active"},{"id":2327,"name":"Chandrabhaga Khatri","email":"khatri_chandrabhaga@klein.net","gender":"male","status":"inactive"},{"id":2326,"name":"Akshita Dhawan","email":"dhawan_akshita@graham-littel.biz","gender":"male","status":"inactive"},{"id":2325,"name":"Deependra Butt","email":"deependra_butt@maggio.com","gender":"male","status":"inactive"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>200
+****Checking Status Line****
+Status Code==>HTTP/1.1 200 OK
+***********Finished TC001_Get_All_EmployeeData*********
+***********Started TC002_Get_Single_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC002_Get_Single_EmployeeData*********
+***********Started TC003_Post_CreateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>[{"field":"email","message":"has already been taken"}]
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>422
+****Checking Status Line****
+Status Code==>HTTP/1.1 422 Unprocessable Entity
+***********Finished TC003_Post_CreateSingle_EmployeeData*********
+***********Started TC004_Put_UpdateSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>gzip
+****Checking Content Type****
+Content Type==>application/json; charset=utf-8
+****Checking Response Body****
+Response Body==>{"message":"Resource not found"}
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>404
+****Checking Status Line****
+Status Code==>HTTP/1.1 404 Not Found
+***********Finished TC004_Put_UpdateSingle_EmployeeData*********
+***********Started TC005_DeleteSingle_EmployeeData*********
+****Checking Content Encoding****
+Content Encoding==>null
+****Checking Response Body****
+Response Body==>
+****Checking Server****
+Server==>nginx
+****Checking Status Code****
+Status Code==>204
+****Checking Status Line****
+Status Code==>HTTP/1.1 204 No Content
+***********Finished TC005_DeleteSingle_EmployeeData*********

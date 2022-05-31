@@ -1,0 +1,40 @@
+pipeline
+{ 
+	agent any
+	
+	stages
+	{
+		stage("Build")
+		{
+			steps
+			{
+			echo "Building is successfully done...."
+            bat "mvn  -f  C:/Users/Aniket/git/RestAssuredEmployeeProject/RestAPITesting_EmployeeProject/pom.xml  clean"
+			}
+		}
+		stage("Test")
+		{
+			steps
+			{
+			echo "Testing is successfully done...."
+			bat "mvn  C:/Users/Aniket/git/RestAssuredEmployeeProject/RestAPITesting_EmployeeProject/pom.xml  test"
+			}
+		}
+		stage("Compile")
+		{
+			steps
+			{
+			echo "Compiling is successfully done...."
+			bat "mvn  C:/Users/Aniket/git/RestAssuredEmployeeProject/RestAPITesting_EmployeeProject/pom.xml  compile"
+			}
+		}
+		stage("Deploy")
+		{
+			steps
+			{
+			echo "Deploying is successfully done...."		
+			}
+		}
+		
+	}
+}
