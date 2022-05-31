@@ -14,7 +14,7 @@ public class TestBase {
 	public RequestSpecification httpRequest;
 	public Response response;
 	public Logger logger;
-	public int empId=2344; //hardcoded value
+	public int empId=2329; //hardcoded value
 
   @BeforeClass
   public void setUp() {
