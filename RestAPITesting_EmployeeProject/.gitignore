@@ -1,100 +1,55 @@
-projectFilesBackup/
+
+### Eclipse
+.settings/
+.classpath
+.project
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+## File-based project format:
 *.iws
-.DS_Store
-.svn
-.credentials.dat
-.ijwb
-mockpiframe.log
-mockpiframe.log.lck
-junitvmwatcher*.properties
-test-output/
-.*.swp
-*~
-common/build
-/build/
-cpp/iedriver/IEReturnTypes.h
-java/client/src/org/openqa/selenium/ie/IeReturnTypes.java
-java/server/test/org/openqa/selenium/example
-javascript/deps.js
-javascript/node/selenium-webdriver/node_modules/
-javascript/webdriver/devtools/types/
-.idea/vcs.xml
-.idea/workspace.xml
-.idea/dictionaries/
-.idea/scopes/
-.idea/sonarlint/
-.idea/qaplug_profiles.xml
-out
-cpp/IEDriver/sizzle.h
-third_party/gecko-*
-cpp/iedriver/Generated/atoms.h
-cpp/iedriver/sizzle.h
-chromedriver.log
-junit*.properties
-*.rbc
-.rbx
-.yardoc
-rb/.yardoc
-.tm_properties
-maven/*/src
-maven/target
-maven/*/target
-maven/.idea
-maven/*.iml
-maven/*/*.iml
-maven-metadata-.xml
-maven-metadata-.xml.sha1
-node_modules/
-resolver-status.properties
-java/build/
-java/client/build/
-java/client/log.txt
-java/client/iedriver.log
-java/server/build/
-__pycache__
-.tox
-*.pyc
-dist/
-py/docs/build/
-py/build/
-py/LICENSE
-selenium.egg-info/
-third_party/java/jetty/jetty-repacked.jar
-*.user
-*.cache
-obj/
-*.opensdf
-*.suo
-*.sdf
-*.vs
-*.opendb
-*.VC.db
-*.aps
-launchSettings.json
-Generated/
-ipch/
-/iedriver.log
-/phantomjsdriver.log
-geckodriver.log
-ghostdriver.log
-.tags
-.ruby-version
-GPATH
-GRTAGS
-GSYMS
-GTAGS
-Gemfile.lock
-/rb/.bundle
-/rb/.idea
-.sonar/
-.idea/sonarIssues.xml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/inspectionProfiles/Project_Default.xml
-.idea/misc.xml
-third_party/py/googlestorage/client_secrets.json
-.venv
-venv
-venv3
-py/.idea
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Exclude maven wrapper
+!/.mvn/wrapper/maven-wrapper.jar
 
 
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/.idea/libraries/
